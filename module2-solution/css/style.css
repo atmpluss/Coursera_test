@@ -26,6 +26,14 @@ header{
 
 }
 
+
+footer{
+    padding-left:10px;
+    font-style: italic;
+}
+
+
+
 .content{
     position: relative;
     background-color: grey;
@@ -55,6 +63,9 @@ div.content p{
 #sushi header{
     background-color:deepskyblue;
 }
+
+
+
 
 
 
