@@ -38,7 +38,7 @@ body{
     margin: 10px;
     height: 90%;
     overflow: hidden;
-    height: 1000px;
+    /* height: 1000px; */
     font-size: 1.1em;
 }
 .content .text{
@@ -60,9 +60,14 @@ body{
     font-size: 1.2em;
     
 }
+@media (min-width: 992px) {
+    .content{
+        line-height: 2vw;
+    }
+}
 @media (min-width: 768px) and (max-width: 991px){
     #sushi .content{
-        line-height: 4vw;
+        line-height: 6vw;
     }
 }
 @media (max-width: 767px){
