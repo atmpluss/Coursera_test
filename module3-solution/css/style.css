@@ -1,0 +1,72 @@
+body{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+#header-nav{
+    /* background-color: #ffba71; */
+    opacity: .8;
+
+}
+#header-nav .navbar-brand h1{
+    color: black;
+    margin-top: -10px;
+    margin-left: 10px;   
+}
+#header-nav .navbar-brand h1:hover{
+    text-shadow: 1px 1px 1px #222;
+}
+#myNavbar li a{
+    color: black;
+    text-align: center;
+    background-color: silver;
+}
+#myNavbar li a:hover{
+    text-shadow: 1px 1px 1px #222;
+}
+
+#chicken h3, #beef h3, #sushi h3{
+   font-weight: bold;
+   font-size: 1.3em;
+   margin-top: 10px;
+}
+.content{
+    background-color: #e7e7e7;
+    border: 1px black solid;
+    margin: 10px;
+    height: 90%;
+    overflow: hidden;
+    height: 1000px;
+    font-size: 1.1em;
+}
+.content .text{
+    padding: 10px;
+    font-style: italic;
+}
+.content a{
+    padding-left: 10px;
+}
+#main-content h2{
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+#home-tiles .gotop {
+    margin-bottom: 50px;
+    
+}
+#home-tiles .gotop a {
+    font-size: 1.2em;
+    
+}
+@media (min-width: 768px) and (max-width: 991px){
+    #sushi .content{
+        line-height: 4vw;
+    }
+}
+@media (max-width: 767px){
+    .content{
+        line-height: 4vw;
+    }
+}
